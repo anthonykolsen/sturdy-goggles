@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony Olsen - Marketing Professional</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header_menu">
+        <div class="logo">
+            <img src="mypic.jpeg" alt="">
+            <span>Anthony Olsen</span>
+        </div>
+        <div class="menu">
+            <ul>
+                <li class="active"><a href="./">Home</a></li>
+                <li><a href="./resume.html">Resume</a></li>
+            </ul>
+            
+        </div>
+        <div class="humburg">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+    <!-- Home Hero -->
+    <div class="hero_section">
+        <div class="left">
+            <h2>Anthony Olsen</h2>
+            <p>Anthony Olsen is a student-athlete at BYU with a passion for business. Skilled in entrepreneurship, they are dedicated to starting new. Outside of professional interests, they enjoy football and golf</p>
+            <a href="./resume.html">Read More</a>
+        </div>
+        <div class="right">
+            <img src="assets/img/Portfolio-cuate.png" alt="">
+        </div>
+    </div>
+    <!-- Reecnt Orders -->
+
+    <div class="recent_orders">
+        <div class="center">
+            <h2>Recent Orders</h2>
+        </div>
+        <!-- Unorder list embeded in order list -->
+        <ol>
+            <ul>
+                <li>
+                    <div class="left">
+                        <h4>Order 1</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptates architecto dolor aliquam ipsam, distinctio a sapiente suscipit dolore eum.</p>
+                    </div>
+                    <div class="right">
+                        <a href="./resume.html">See Details</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <h4>Order 2</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptates architecto dolor aliquam ipsam, distinctio a sapiente suscipit dolore eum.</p>
+                    </div>
+                    <div class="right">
+                        <a href="./resume.html">See Details</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <h4>Order 3</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptates architecto dolor aliquam ipsam, distinctio a sapiente suscipit dolore eum.</p>
+                    </div>
+                    <div class="right">
+                        <a href="./resume.html">See Details</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <h4>Order 4</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptates architecto dolor aliquam ipsam, distinctio a sapiente suscipit dolore eum.</p>
+                    </div>
+                    <div class="right">
+                        <a href="./resume.html">See Details</a>
+                    </div>
+                </li>
+            </ul>
+        </ol>
+        
+    </div>
+    <!-- Promotional Video -->
+    <div class="promotional_video">
+        <div class="center">
+            <h2>Promotional Video</h2>
+        </div>
+        <div class="video">
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/a9CPeuImNUY?si=g1bg2v787sIlpcxO&amp;controls=0" title="YouTube video player" frameborder="0" allow="muted,accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+    <footer>
+          <p>&copy; 2024 Anthony Olsen - Marketing Professional</p>
+      </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script>
+            $(document).ready(function(){
+                $('.humburg').click(function(e){
+                    e.preventDefault();
+                    $('.menu').slideToggle('slow');
+                })
+            })
+      </script>
+</body>
+</html>
