@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anthony Olsen - Marketing Professional</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/resume.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+  <div class="header_menu">
+    <div class="logo">
+        <img src="assets/img/mypic.jpeg" alt="">
+        <span>Anthony Olsen</span>
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="./">Home</a></li>
+            <li class="active"><a href="./resume.html">Resume</a></li>
+        </ul>
+        
+    </div>
+    <div class="humburg">
+        <i class="fas fa-bars"></i>
+    </div>
+</div>
+  <header>
+    <div class="container">
+      <img src="./assets/img/mypic.jpeg" alt="Profile Picture" class="profile-pic">
+      <h1>Anthony Olsen</h1>
+      <p>Held leadership roles in student organizations, showcasing strong leadership competencies, teamwork skills, and the ability to inspire and motivate peers.</p>
+      <!-- <p class="contact-info">anthonykolsen@gmail.com | 480-586-5894 | 12-16-23</p> -->
+      <!-- <div class="desktop-menu-toggle" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </div> -->
+    </div>
+  </header>
+  
+
+  <nav>
+    <div class="container">
+      <i class="fas fa-times close-btn" onclick="toggleMenu()"></i> <!-- Close button -->
+      <ul class="menu">
+        <li><a href="#objective">Objective</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#athletic">Athletic Achievements</a></li>
+        <li><a href="#skills">Professional Skills</a></li>
+        <li><a href="#experience">Relevant Experience</a></li>
+        <li><a href="#additional">Additional Information</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- <div class="menu-toggle" onclick="toggleMenu()">
+    <i class="fas fa-bars"></i>
+  </div> -->
+
+  <section id="objective">
+    <div class="container">
+      <h2>Objective</h2>
+      <p>Dedicated and results-driven Marketing Intern with a strong academic background in Marketing and demonstrated leadership as a student-athlete at Brigham Young University. Seeking to contribute strategic thinking, analytical skills, and creativity to Unilever's Marketing team to drive business growth and innovation.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="container">
+      <h2>Education</h2>
+      <p><strong>Bachelor of Science in Marketing</strong><br>
+      Brigham Young University, Provo, UT<br>
+      Expected Graduation: [Month, Year]<br>
+      Current GPA: 3.2</p>
+      <p><strong>Relevant Courses:</strong><br>
+      Marketing Research, Consumer Behavior, Marketing Strategy, Advertising and Promotion, Marketing Analytics, Product Management</p>
+    </div>
+  </section>
+
+  <section id="athletic">
+    <div class="container">
+      <h2>Athletic Achievements</h2>
+      <p><strong>BYU Football Team Member</strong><br>
+      Brigham Young University, Provo, UT<br>
+      2022 - present<br>
+      Demonstrated exceptional teamwork, discipline, and leadership as a Division I football student-athlete. Balanced rigorous athletic demands with academic coursework, maintaining a 3.2 GPA.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Professional Skills</h2>
+      <ul>
+        <li>Strategic Thinking and Planning</li>
+        <li>Market Analysis and Research</li>
+        <li>Data-Driven Decision Making</li>
+        <li>Project Management</li>
+        <li>Team Leadership and Collaboration</li>
+        <li>Effective Communication</li>
+        <li>Creative Problem-Solving</li>
+        <li>Strong Analytical Abilities</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <h2>Relevant Experience</h2>
+      <p><strong>Marketing Research Project</strong><br>
+      Marketing Research Course, BYU<br>
+      Conducted comprehensive market research, including surveys and interviews, to analyze consumer preferences and market trends for a local business. Presented findings and actionable insights to the business owner, resulting in the development of targeted marketing strategies.</p>
+      <p><strong>Leadership Experience</strong><br>
+      BYU Student Organizations<br>
+      Held leadership roles in student organizations, showcasing strong leadership competencies, teamwork skills, and the ability to inspire and motivate peers.</p>
+    </div>
+  </section>
+
+  <section id="additional">
+    <div class="container">
+      <h2>Additional Information</h2>
+      <p><strong>Cumulative GPA:</strong> 3.2</p>
+      <p><strong>Proficient in:</strong> Microsoft Office Suite (Word, Excel, PowerPoint)</p>
+      <p><strong>Willingness to:</strong> relocate and work at different sales office locations across the US</p>
+      <p><strong>References:</strong> available upon request</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Anthony Olsen - Marketing Professional</p>
+    </div>
+  </footer>
+
+  <!-- <script>
+    function toggleMenu() {
+      var nav = document.querySelector('nav');
+      nav.classList.toggle('menu-open');
+    }
+  
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+      $(document).ready(function(){
+          $('.humburg').click(function(e){
+              e.preventDefault();
+              $('.menu').slideToggle('slow');
+          })
+      })
+</script>  
+
+</body>
+</html>
